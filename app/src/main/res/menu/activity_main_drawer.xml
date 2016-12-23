@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_import"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="لیست معکوس روزهای مهم" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="امتیاز به برنامه"/>
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title="راهنما"/>
+    </group>
+
+
+
+    <item android:title="بیشتر">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="اشتراک گذاری" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/telegram"
+                android:title="کانال تلگرام" />
+        </menu>
+    </item>
+
+</menu>
