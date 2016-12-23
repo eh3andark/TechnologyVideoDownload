@@ -34,7 +34,7 @@ import static ir.developersland.technologyvideodownload.AppController.context;
 
 /**
  * Created by Asus on 2016-10-02.
- */public class A_A extends Fragment {
+ */public class A_B extends Fragment {
 
     Button download_1, download_2, download_3, download_4, download_5, download_6, download_7, download_8;
     ImageView image;
@@ -42,7 +42,7 @@ import static ir.developersland.technologyvideodownload.AppController.context;
     private ProgressDialog pDialog;
     private String urlJsonObj = "http://developersland.ir/Android/Json_git/Graphic/ZBrush/1.json";
     private String download_url_1;
-    public static String TAG = A_A.class.getSimpleName();
+    public static String TAG = A_B.class.getSimpleName();
 
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
